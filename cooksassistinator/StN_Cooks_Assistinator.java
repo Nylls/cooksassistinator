@@ -20,7 +20,11 @@ import cooksassistinator.jobs.*;
 
 @Manifest(authors = { "Nylls" }, name = "StN_Cook's Assistinator", description="A bot that does the Cook's Assistant quest, start at lumbridge castle square." )
 public class StN_Cooks_Assistinator extends ActiveScript implements PaintListener{
-
+	
+		/*#*****************************************/
+		/* Script Skeleton written by ArcaneSanity */
+		/*#*****************************************/
+	
         private final List<Node> jobsCollection = Collections.synchronizedList(new ArrayList<Node>());
         private Tree jobContainer = null;
         private boolean started = false;
